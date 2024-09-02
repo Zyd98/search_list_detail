@@ -1,4 +1,4 @@
-package com.projectname
+package com.pverse
 
 import android.app.Application
 import com.facebook.react.PackageList

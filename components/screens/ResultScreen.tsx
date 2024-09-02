@@ -10,10 +10,8 @@ type RootStackParamList = {
   Home: undefined;
 };
 
-type ResultScreenNavigationProp = StackNavigationProp<RootStackParamList>;
-
 type Props = {
-  navigation: ResultScreenNavigationProp;
+  navigation: StackNavigationProp<RootStackParamList>;
 };
 
 const ResultScreen: React.FC<Props> = ({ navigation }) => {
